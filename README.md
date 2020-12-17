@@ -1,2 +1,3 @@
-# docker_go_ms
-Example of Docker image with Go microservice
+# REST-API-using-GO
+
+My Medium Article Explaination: https://link.medium.com/jksCfFeNy9

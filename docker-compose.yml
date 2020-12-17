@@ -1,0 +1,11 @@
+version: '2.4'
+
+services:
+  ms_server:
+    image: mcd_ms_go
+    container_name: mcd_ms_go
+    build: .
+    restart: unless-stopped
+    ports:
+      - "0.0.0.0:5000:5000"
+    cpus: 0
